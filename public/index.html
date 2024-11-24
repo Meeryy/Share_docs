@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./styles.css">
+		<title>Docum</title>
+	</head>
+	<body>
+		<main>
+			<input type="text" id="username" placeholder="Enter your name" />
+			<button id="join">Join</button>
+			<button id="leave">Leave</button>
+			<div id="status"></div>
+			<div><b>Connected Users:</b></div>
+			<div id="connected-users"></div>
+			<div id="cursors"></div>
+			<div id="editor-container" contenteditable="false"></div>
+		</main>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/diff.js"></script>
+		<script type="text/javascript" src="./socket.js"></script>
+	</body>
+</html>

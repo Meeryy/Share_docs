@@ -1,0 +1,16 @@
+#editor-container {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	overflow: auto;
+}
+.cursor {
+	position: absolute;
+	width: 2px;
+	height: 20px;
+	background-color: red;
+	display: none;
+}
